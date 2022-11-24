@@ -18,24 +18,32 @@ if(isset($_SESSION['User_id']) && isset($_SESSION['User_name'])){
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>View Records</title>
 	<link rel="stylesheet" a href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/Style.css"/>
+	<link rel="stylesheet" href="css/Stylesheet.css"/>
 </head>
 <body>
 
-	<nav>
-		<div class="logo"><center>TUT</center></div>
+<nav>
+		
 		<div class="nav-items">
-			<a href="/phpapp/registration.php"> Registration </a>
+		<h1><img src="pictures\tutLogo.png" widht="80" height="80">Covid 19 Management System
 			
+		</h1>
+		<a class="manage" href="registration.php" style="font-size: 1em;
+  													color:white;
+ 													 text-decoration: none;
+  													margin-left:80%;
+													border: 0.2px solid white;
+													border-radius: 12px;
+													padding: 8px;">New Record</a>
+												
+		<a href="logout.php" style="font-size: 1em;
+  									color:white;
+ 									text-decoration: none;
+									 border: 0.2px solid white;
+									border-radius: 12px;
+									padding: 8px;">Logout</a>
 		</div>
-	</nav>
-
-	<br>
-
-	<h1><center>Covid 19 Management System</center></h1>
-
-	<h5>Hello,<?php echo $_SESSION['User_nam']; ?></h5>
-	<a href="logout.php">Logout</a>
+	</nav> 
 
 	<div class="container">
 		<div class="row">
@@ -43,9 +51,9 @@ if(isset($_SESSION['User_id']) && isset($_SESSION['User_name'])){
 			<form class="form-horizontal" action="view.php" method="POST">
 		
 		<div class= "form-group">
-			<label class="col-lg-2 control-label"> Search </label>
+			<label class="col-lg-2 control-label" style="color: white;"> Search </label>
 			<div class="col-lg-4">
-				<input type="text" class ="form-control" name="studentnumber" placeholder="1234">
+				<input type="text" class ="form-control" name="studentnumber" placeholder="Enter Student Number">
 			</div>
 		</div>
 

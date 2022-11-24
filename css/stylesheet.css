@@ -44,12 +44,15 @@ p{
 table{
   background-color: aliceblue;
   border: 0.5px solid #111;
+  border-radius: 12px;
   padding: 50px;
+  
 }
 #textbox{
   padding: 10px;
   margin: 5px;
   border: 2px solid #000;
+  border-radius: 12px;
 }
 #buttons{
 	padding-top: 10px;
@@ -70,4 +73,16 @@ table{
 }
 #register:hover{
 	color: #889977;
+}
+
+
+
+/*Registration styling starts here*/
+
+.manage{
+  font-size: 8em;
+  color:white;
+  text-decoration: none;
+  text-align: right;
+  margin-left: 100%;
 }

@@ -34,13 +34,13 @@
 									<td><input id="textbox" type="password" placeholder=" Password " name="password"></td>
 								</tr>
 								<tr>
-									<td><input id="buttons" type="button" name="btn_submit" value="Login">&nbsp; &nbsp;<input id="buttons" type="reset" name="" value="Reset"></td>
+									<td><input id="buttons" type="submit" name="btn_submit" value="Login">&nbsp; &nbsp;<input id="buttons" type="reset" name="" value="Reset"></td>
 								</tr>
 
 							</form>
 
 					</table>
 					<br>
-					<a id="register" href="registration.php">First Time Registering? register here</a>
+					<a id="register" href="register.php">First Time Registering? register here</a>
 </body>
 </html>
